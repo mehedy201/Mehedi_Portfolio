@@ -11,7 +11,7 @@
   -webkit-mask-image:radial-gradient(ellipse at 65% 50%,#000 25%,transparent 80%);mask-image:radial-gradient(ellipse at 65% 50%,#000 25%,transparent 80%);animation:grid 12s linear infinite}
 .bg-glow{position:absolute;left:-12vmax;bottom:-16vmax;width:40vmax;height:40vmax;border-radius:50%;background:radial-gradient(circle,#7C5CFF,transparent 65%);opacity:.18;filter:blur(80px);animation:drift 20s ease-in-out infinite alternate}
 .bg-code{position:absolute;top:0;right:4vw;font:12px/1.8 ui-monospace,Menlo,Consolas,monospace;white-space:pre;opacity:.09;animation:codeUp 60s linear infinite}
-.hero-word{position:absolute;left:5vw;bottom:15px;transform-origin:0 100%;font-size:clamp(5rem,24vw,22rem);font-weight:800;line-height:.8;letter-spacing:-.06em;white-space:nowrap;color:transparent;-webkit-text-stroke:1px rgba(18,18,18,.08);user-select:none}
+.hero-word{position:absolute;left:5vw;bottom:5px;transform-origin:0 100%;font-size:clamp(5rem,24vw,22rem);font-weight:800;line-height:.8;letter-spacing:-.06em;white-space:nowrap;color:transparent;-webkit-text-stroke:1px rgba(18,18,18,.08);user-select:none}
 @keyframes grid{to{background-position:30px 30px}}
 @keyframes drift{to{transform:translate(8vmax,-6vmax) scale(1.15)}}
 @keyframes codeUp{to{transform:translateY(-50%)}}
