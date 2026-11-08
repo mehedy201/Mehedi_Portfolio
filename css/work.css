@@ -1,3 +1,4 @@
+
 /* css/work.css — 'Our Work': project rows that expand on hover/tap. */
 
 /* =============================================================
@@ -28,7 +29,7 @@
 
 /* expanded part (height is animated by JS) */
 .proj-body{height:0;overflow:hidden}
-.proj-inner{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(1.5rem,4vw,4rem);padding-bottom:clamp(1.6rem,3vw,2.8rem)}
+.proj-inner{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);align-content:start;gap:clamp(1.5rem,4vw,4rem);min-height:var(--inner-h,auto);padding-bottom:clamp(1.6rem,3vw,2.8rem)}   /* --inner-h is set by js/work.js: every project opens to the same height */
 .proj-about{color:var(--muted)}
 .proj-feat{display:grid;grid-template-columns:1fr 1fr;gap:.35rem 1.2rem;margin:1.3rem 0;padding:0;list-style:none;font-size:.9rem}
 .proj-feat li{position:relative;padding-left:1.1rem}
@@ -54,3 +55,5 @@
 
   .proj-feat{grid-template-columns:1fr}
 }
+
+
